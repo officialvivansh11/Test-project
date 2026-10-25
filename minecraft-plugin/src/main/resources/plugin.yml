@@ -1,0 +1,15 @@
+name: UtilityPlugin
+version: 1.0.0
+main: com.example.utility.UtilityPlugin
+api-version: '1.20'
+commands:
+  heal:
+    description: Restores your health.
+    permission: utility.heal
+    permission-message: You do not have permission to use this command.
+  feed:
+    description: Fills your hunger bar.
+    permission: utility.feed
+    permission-message: You do not have permission to use this command.
+
+  
